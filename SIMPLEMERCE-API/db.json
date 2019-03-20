@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "jonathan",
+      "password": "ganteng"
+    },
+    {
+      "username": "admin",
+      "email": "jgh",
+      "password": "admin",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Kaos Oblong",
+      "desc": "kaos bagus no ori only kw",
+      "price": 35000,
+      "src": "https://s0.bukalapak.com/img/0431282302/w-1000/Kaos_Polos_Oblong_Warna_HITAM_MURAH.jpg",
+      "id": 1
+    },
+    {
+      "name": "Armor Plate",
+      "desc": "baju perang",
+      "price": 450000,
+      "src": "https://i.ebayimg.com/images/g/pGkAAOSwTPRax83D/s-l300.jpg",
+      "id": 2
+    },
+    {
+      "name": "Jaket baru",
+      "desc": "new prom toko",
+      "price": 150000,
+      "src": "https://ae01.alicdn.com/kf/HTB15nKKRXXXXXaNXVXXq6xXFXXXq/YuWaiJiaRen-Berkerudung-pria-Jaket-Baru-Musim-Semi-Musim-Gugur-Mode-Hiphop-Berkerudung-Jaket-Tahan-Air-Jaket.jpg_640x640.jpg",
+      "id": 3
+    },
+    {
+      "name": "Baju Partai",
+      "desc": "Partai",
+      "price": "210000",
+      "src": "http://www.expresskonveksi.com/image-product/img8-1303107013.jpg",
+      "id": 6
+    },
+    {
+      "name": "Baju baru",
+      "desc": "fressh",
+      "price": "20000",
+      "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEBUSEBAVFRAPFRYVFRUQDw8PEBAPFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQFysdHR8rKy0rLS0tLS0tLSstLS0tLS0tLS0tKy0tLSsrLTctNystKy0tLS03LSsrKystKysrN//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIGBwMEBQj/xABIEAABAwICBAkGCwcEAwEAAAABAAIDBBEFEgYTITEHIkFRYXGBkcEUMkKhsbIjM1JTYnJzkqLR8AgkNENjgsIVNbPhk9Lig//EABkBAQADAQEAAAAAAAAAAAAAAAABAwQCBf/EACMRAQEAAgMBAAICAwEAAAAAAAABAgMRMTIhEkETIjNRcQT/2gAMAwEAAhEDEQA/ALxQhCAQhCAQhCAQhCAQmPeACSbAbydgA6SoJpRwq0FHdkbzUTDZkgILGn6Uh4o7LlBPHFV7wiVLXVEMY2mNrnO6MxAF/ulVxi/DFiMxIi1dOw7BkZrZB/e/8k7QvEvKG5ZJC6oaXF2d13yBzs2a52nfbsVW3n8Xer19SStwdk8Z2An1qG1Oh5Ju0KxKR2XYeVZiw32DZ0rLzw2WS9qlm0Ue07l28NwDVN2jb4qcPiBNzydi1p2A7hsHclyp+EiY6F4zAKKFj5mMfGNXZ8jWG4JtYE7dllKWPB3Hf3FeYdOMQidlgZZxa7M8ixANrBoPPt29QWlo5ptXUB/d6h2rH8qUmWG3MGuPF/tIW3Dm4sOfEy+PVyFT+BcN8TrCtpnxnlfTnWx9ZabOHZdT7BdN8PrLCCsjLj6D3aqT7j7FdOZUiQm5k5EhCEIBCEIBCEIBCEIBCEIBCEIBCFydJcfhoKd087rNbsA9KR53MaOUlB0Z52saXPcGtbtLnENaB0k7lWmlfDFS092UY8plGzMCW07T9be7s2dKqHSzTCrxJ5M8pENyWwtOWJg5LtHnG3KfUo/ZTwipBpJppXYgSKiodqz/ACorxQgcxaPO/uuo7buTglUoMTo5C0ggkEbi02cDzgpbIypwO/Saa1sYtr8wG7Wsa89+/wBa2xwhVo9KH/xf/SilkWXF14/6dTPKftJ5NPKw+nEOqIeJK5ldpHVTi0lQ8tPosDY2n7oC5gCUBJhJ+k3PK90wlIsgCF24NSFqdZFrIJlohwk1uHkMc8z0w3xTOuWj+m/e3qNwr20R00pMSb8BJaUC7oX2bKzs9IdIuF5YsnQzPjcHxvc17TcOY4tc084I3KOEx7KQoHwU6Y/6jTZJXXq6YASc8jDsbJ22IPT1qeKEhCEIBCEIBCEIBCEIBCEIGvK81cK+lZr61zGO/dqUmOMXNnOGx8nabgHmHSrt4S8cNDhs0rTaR41Uf2knFB7Bc9i8tuUxFpw2oTWHb1pxUoCLICEChIlCECIQhAqAi6AgAgpUIGlKRsS2SIBp2JD7UBI5BINCtIXYfWx1AvkByyNHpQusHDs39YC9UU8we0OaQWvAcCNxaRcHuXjoL0XwLY15ThjY3Hj0btSfswLx/hNuxRUxP0IQoSEIQgEIQgEIQgEIQgpf9oev/hKcc8kx7AI2+85UwSrI4earPibWfM07B1F7nu9llWt/10KY5/YadvV7FkJWF366k5hUju6O4F5YZ/h2R+SwSVBaWSPkljibmcGWGUcguXA7dxXIAUs4No889W0FozYbWC73BjG3awXc47GjnJ3LS0njNE00DqWFs8AOsqDAzXS5uM0xu3ZLbA/znbzbcoHAKFYuj+DwSVFVC+CFsLaSdzIJYhJXsDGAsqJJbZoX3LTlLhbOBlFrqOmDyClo5zTxSz17JJSaqFtRCyFj8jGMjJykkccki4zNAttU8pR1Ip5WU+GGXDa2SIQUtcJhUwx5jFFUQHJnawbdUXuaS0cg678bTHD5KdlOyWKA31ro6qjjhZBXUx1OrI1QALmESX2AgPbv3lyho4Fo/LWNldC+ECmYZZBNI6MthaONJ5pBaL8hv0J02j0zaTyxropKYPEbnwylxjkdbKJGOa1zb3HJyru8GRbbEs4JZ/plRmDCGvLbsvlJBANuUgrHBTMmwir8ilfGymfFPUw1OR7pm7WRFkrA1oDbOOXLckb9ygRBKrA0UwumkrmQuihFPJTutFUQ66tnPkxeZnOLSacZ7lu1gLQ2zTmzHm6EU1PJhuIyVMDHupoqd7HkHXZpHvuxriSGZsjW5mgEA32qeUoigqZYTVQVcdaTQUsZp8NkkaY4BxaiOQNbIzMTbiSC97m4vfctOOmYcDfMaeMSMrY4WzCMa10ZjMjm5z9LLuts2KORFXpuZLI9Yo+f9dSlDM0q1+ADEstVPTk/HRCRo+lE6zvVIO5VOPapHweYkabFKaTNZutEbuYsk+DIPa4dyU/b1WhI0pVy6CEIQCEIQCEIQCQlKuNpfivkdDUVHLDE9zfr2s38RCDzbwl4hr8WqpAbgSatvLsiAZ7QVGXe3cnudmuSbk7Sd93HaT2lNHN2hdRz+zLfrwWO9jbuWUrXqL7Eokei2kDKIzE0+uNTC+nN53RBkMos+wDTdxsNp3cy3Y9LiYYI5qZkslA8Opp3ykSxxMcHMhls20zAQN4HRZRBjrLM16gic0+nbYquaohw+Njatsonj8qme6Z8uYucZSOI3M4nI1o69gtow6UsdSNpKujZNFC98kBinfSSUxkcXOY1wa/NHcninv2C0XBQCp4S78OkdnnWQNfTeTvpmU7ZHxtihe4PJZJYnWZxnLyDcndawGtiOLmWCGmY0spqZ0j2NfLrpHSSuu5z3hrQdlgAGgDbvJJXMJQE4Q72i+kLaEVANMJvLIXQPzTuiDYH2zBoawnMbedfs59Q4vkhfDBHq4pnMfKHyGd8uqcXRsc6zRkaTewFyQLkrm3SWTgThvCAG1/l0dBEx8gcKhoqJXmpzR5LB7haJt8rrNbc5Bcrj4fj8UNNVU4ohkrjHmLKqRmqbC4uiEYcx24m93F1/UuAmvThLs6PY0KR8uaHXRVUElPJGZTE4xyFpuJA02cCwcm1bJ0r/cX0RpY3ROlbJFmlmy0+UEbA0gveS5xLnO2l26wAUbc9Y3PUIY5XcizRBaw87ettoUwPGzalZcbQbEbjzEbimk+r2rIxpOwAkncACSeoDaVA9W6FY02uoYahpBL2APA9GZuyRp6nAruqseA7DKymp5m1MLo4ZXtkiElg+5FncTe0GzTtVnBQ6gQhCAQhCAQhCAWOVgIsQCDvBFwexZEhSjz/AKc6HsmrpzTZIsrgA1rcrL5RfYNgubqv8VwWel+OiLRyOteM9ThsVwYhLetqL/PP9TrBdSBgcLOALTvBAIPWCs/8tlX/AMUuMrz0SsE55ldeN6F0L7uEOrcdvwLnMF+fL5vqUHn0VjEVa5pc7yWBsjC612u1zAd2+7S4K3HZMlWWuxC2BZAEjU9jVYrObsCViY4rI1SFTk0JyASpLpboBI5F0iBmW4WGQLOEyQKKNeLzlvQtc45WNJdzNaXO7htUg0Vpo3wubIxrss7HDMByseLdXFVrYDBGxo1bGMFvQY1vsVeWz8VuGv8AL6q7CtBquWzns1Me/NL5x6mb++yk2j2j0VHWU72vc57Zo9rrDe4A7O1Tus3FRa5NXAByzR++Fnuy2rpqxxxq7mhOSBKtcZYEIQiQhCEAhCEAkclSOUUU7ibbYhUD+q49+3xXVpCtDGW3xCoP9TwC26d9gViy7b8fMJib+KVH8JptZQYw+2wUpaOtrXyeAXUxWXilbmhtDmwavcR/Eio7WsiyD1hys09qN3yPPzHA9aeSsYbsB5wE5a2UgCyBMasikCckSoBCEIESpEqBhSEpzk220JSpTocARUfQEL+wSFh/5ArQwZ3FHUqz4Po881SzldQzkfWjdFI31tVh4HJxAehZdvbTp6dipOxR1kf75T/bx++F3HSX2LmYg3VyRy8kcjHHqDgSqMe2iznFcISpkTr7RuO1PW9ggQhCAQhCAQhCATJHW2ncE9cbS2q1VHK4HaW5R1v4viovRxz8V9B8NNLL849zh9UnZ6k2rfkK2sNjAYLBauJwlxssHf16E+fHJxistGSTuBUvrWik0Yk9EmiceY62Zp9eaRQjGKIkCMbTIWt7XOA8VMeG6cQ4MYgba2SGMDddrDmI7mLTpZt/cedC63Ihu3/tLE64CyFaGY1gTkiRSHpU0I5UCpQm3QgVKm3ShA6+xY27SUOQ0KBO+BuMPxUMO59PUN6w5oClGAg5Mp85l2nrGw+sKLcCzrYzD0xzD8F1YHkYjqp280r/AMRzD1OVG+L9PZlLfPtWxikGdhHQtt8YBFktZbKszTylOhtcZqONx85g1bvrR8W/aACu4oNwbVO2oh5Gua8f3AtPuhTgLZhecYx5zjKwqEIXbkIQhAIQhAFRLhGmtTxt+clb3NBPtspYSoDwlTXkp2fXf7rR4qvZf613r+5Ro0XmjqTJhxrpaF2zsROVkjbWhIwPqYGnlni98GyZ+0TJ8BSN55pHd0dv8k7DmZ8QpWD50OPUxpf4LF+0S34KjPJrJR2lg/JadPTHv9KOaNpWQJnKU4K+KTrpt0XS2UhyAkS3QBSpqLoFuhJdKgROCRKEKmXA9/vVPb+r3ap3/SsvE+JiNQ0+k8OHU5jVXfAsy+MxfRjmP4LeKsvThmTEGO+dhHa5jyPY4Knd0u1X+zMw3TK08VJTvulrhxSst6a4waA1NsQez5yI97XA+JVmNKqPRaTLisP0tY3rvG4+CtwLRp8su/2chCFcqCEIQCEIQNKrbhGd++wjmi9rz+Ssoqs+Ej+Ni+y/zcqtvl3q9wylbuRW7EtDtCZiTrBZI21j0QZnxSP+myV/4cv+aT9oSC9BA/5FRt6A6N49tltcG0eetnk+aiawdb3XPuLo8NNJrMGmPLC6KT7sjb+ola9U+MW37k8zSt23SsN96e8XCxBXKjy2yUFMDk5SHIcUiVAqE1OQCEIQF0oSJyFWHwFR3xcn5NNKe90Y8VaPCdS8Snnt8VIWE/RkH/s1qqzgKkti9vlU8o9cZ8Fdum9JrcPnaBdzWaxv1oyHj3VXn9d43iyofhr/AGLYrPNK42C1NwOkBdmoF29ix1ujiYFsxSm+u7/jergaqewTbitN0PPqY5XE1aNPlm3+zkIQrlIQhCAQhCBqrfhNFqqA88bvU/8A7VlKv+E6Lj0z/tG9+U+C42ea71+o0MO2sutLGZbDqW9hnxa42ksuVhPQscbalPBNT/ATzH+bNlH1Y2ge0uW9wtTZMFqza94w3b9J7W39a3dAaHUYdA0izns1jufNKS8+8B2LlcM0oGCVN/S1bR9YysstmM4kYMrzlXmcJgG1PaU071a4BakCcE0oFQEiVApQhIgEIQgcE4pjUrkKnfAg+2Mxj5UUw/CD4L0fNGHNLXbnAg9IIsV5q4GJA3GoL+k2Vo6zGT4FemiFzY6UjhUZhkdC47YXuj6eISAe4X7VKAeKepc3TOl1GJucBxaljZB9ccV/sae1dOCzm9ixZTi1t13nGOJo22+LQdDnnujereaqr0TaDi0fQyQ/ht4q1Wq/T5Z9/s5CEK5UEIQgEIQgFC+E9nwELvkzW+8135KaKI8Jf8I37Vvscuc/NdYeoj+GbY1wcfiM0scA3zPbH95wBPcV18GfeNM0fg1+LQ80DXy9oblHreFjwnOUjZneMbVpwxhrQ0bmgAdQFgq24fasMwxkfLPOwdYYHPPsCswKlP2iKzjUcPMJZPdaPFbWCqajTimBKSu0C6aXIQgGlKgBFkgUhIi6VAlkpCRLdAWSpAUqciU8F0gbjFGTyykdropGj1kL1OvH+AVvk9XBMfNhmje62/K1wJ9V169hlD2hzSC1wBBG4gi4K5TEJ4UaO8UM4G2GTKTy5JBb3mtXNw93E7FK9OqfWYfOBvazOOtjg7wUNwl3wIJ5Qsu6fWvR9nDHoW6+Lf8A5Sf4q1Qqd0ZqMmLQ/TLmHqc0+NlcTV3p6Vb5/c5CEK9UEIQgEIQgFC+E+S0EQ5DLftDT+amiivCTSayhLuWF7Xjvyn1OXOXTrG/YiODn4M9K6WgFN+/1Dz6MTQP733PuBcrARxbLv6OziGqu4gNnaGEn5QN2be0jtCya/TXu+4p2vP37QcThXwvIOR1PlaTuLmvcXAdIzN716BBVD8PcgfXQRndHTk25nPedv4AtsYMrwqMFOst1uGZvNdt6Rcd4TxhEvMD1E/kupKjmNDIjKtw4ZL8j8QTTQTD+U49RafFE8xq2QQnuieN8Txb6BTBc7mO+45OQ1OWZ1K8NDjG7K7cbeG9Y8jvkP+45Dkl0WRld8h/3HfkninkO6N3aLe1BjTgVmbQyn0LdbgnnDnjzi0DrJ8FCOWoT3L1joAHjC6PWAh4pogb7/NFr9i8rGlYPOcT6gvVWg1VrMMpH/Kp4/UwDwSplZtKqgNppGbM0rTG0HlLhY9wN1D2QauKw5BZZaitM8zpXebctjHIIwTbv3orHcQrHtvLdpx/Gff25Gg1FrcUzu2iBj3j6xs0e8VbTQq14Ojaum+lF7HhWWCrtPlRu90qEIVqoIQhAIQhALg6cPy0E3S0DtLmhd5RPhKmy0YHypGg9l3eCjLpOPcRLB22aFuVrgdi5+HbAOayw1+JtErWXHGvbpssT0eFgaH4wZ43MebywEAn5TD5rvUR2KmuGyW+Ku23DYYmkcx4zrfiCsTQab99ePlQ36OK9v5qruFq/+r1F/wCnbq1bVs1XmR5u7HjLhHcIfZ9ufquu1DID5zSQDzgWso/Q3Eg3rr07htBJBvzX9ivUuj5VGdmqk3chjcey9lqGoiHmiUWPpRtO/qKUxtO0SN3bi7K7uNljL8u8j1c/Qhw1/Lm3Is/f82QmirNrBh287bJtVVkeaL9S0ZsTfuym/TuXNdx0aioAYCeS3fxihsznMuRa/JvXGfXXIuLjfbkzbvzWxNWlzDbZltyc+xc8n4uizMRyC3TtTnbBvb2rk0sD3DjSEDmFltwUbfS41/lEruIs4bJDTtMuzbsaLLWmZHylx7D4rYc4WNhYLBVblLnhqPe0Xs3bzvOwdi9DaF1FsAifm2tppNoG27c42LzvKLq+dDZ9To9EZB8Y17WjnEkjw31G6r2dO8e2hJVtjiBOwAdy2Jps0ezmWOLR5uIPdFrCwRRh922N5C4ZQ4co2FasZMIfHIQTC4sJbcglpsSL8ixcfOXpTKW/iy6GTZMTYL/Gxvb6s3+KtZqpjQqTXYrGY9rYi6/Q0McCe8gK52q/V0ybvZyEIVqsIQhAIQhAFQzhS/g2/aj3XoQucunWPcRPDfM/tCimM/xcH1z7pQhY3orF0F/jHfYu99irrhp/3Z/2MXuoQtenp5//AKfaEU3xjV1Xb/1zBCFfGZlO49q4k/nfroQhSNyP9dwWtX7x1hCFxl0sjDD6HW/wQ/4uTrb7UIXGKW/H5g6h7FtO8B4oQrXGTHyH9cqwS7j2eKVClDUd5yvZv+w4f9Wn9wpEKrb5d6/UdHQD46o+rH7XKK498ZU/bSe8UIWW+I3Y/wCW/wDCcC/8TL9m7/kCuMIQrNfSjd7PQhCuVBCEIP/Z",
+      "id": 7
+    }
+  ],
+  "carts": [
+    {
+      "username": "ari",
+      "quantity": 4,
+      "productId": 3,
+      "item": {
+        "name": "Jaket baru",
+        "desc": "panas",
+        "price": 150000,
+        "src": "https://www.jakartanotebook.com/images/products/99/63/34563/53/jaket-hoodie-sweatshirt-long-sleeve-size-m-light-gray-1.jpg",
+        "id": 3
+      },
+      "id": 1
+    },
+    {
+      "username": "jonathan",
+      "quantity": 2,
+      "productId": 1,
+      "item": {
+        "name": "Kaos Oblong",
+        "desc": "kaos bagus no ori only kw",
+        "price": 35000,
+        "src": "https://s0.bukalapak.com/img/0431282302/w-1000/Kaos_Polos_Oblong_Warna_HITAM_MURAH.jpg",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "name": "Jaket baru",
+      "desc": "new prom toko",
+      "price": 150000,
+      "src": "https://ae01.alicdn.com/kf/HTB15nKKRXXXXXaNXVXXq6xXFXXXq/YuWaiJiaRen-Berkerudung-pria-Jaket-Baru-Musim-Semi-Musim-Gugur-Mode-Hiphop-Berkerudung-Jaket-Tahan-Air-Jaket.jpg_640x640.jpg",
+      "id": 3
+    },
+    {
+      "username": "jonathan",
+      "quantity": 1,
+      "productId": 3,
+      "item": {
+        "name": "Jaket baru",
+        "desc": "new prom toko",
+        "price": 150000,
+        "src": "https://ae01.alicdn.com/kf/HTB15nKKRXXXXXaNXVXXq6xXFXXXq/YuWaiJiaRen-Berkerudung-pria-Jaket-Baru-Musim-Semi-Musim-Gugur-Mode-Hiphop-Berkerudung-Jaket-Tahan-Air-Jaket.jpg_640x640.jpg",
+        "id": 3
+      },
+      "id": 4
+    }
+  ]
+}
