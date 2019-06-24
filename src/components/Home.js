@@ -1,8 +1,9 @@
 
 import React, { Component } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
+import axios from '../config/axios'
 import { connect } from 'react-redux'
-import Background from '../img/9917.jpg'
+
 import ProductItem from './ProductItem';
 
 class Home extends Component {
@@ -90,7 +91,7 @@ class Home extends Component {
                 <div className="col-2">
                 <div className="mt-5 row">
                         <div className="mx-auto card">
-                            <div className="card-body">
+                            {/* <div className="card-body">
                                 <div className="border-bottom border-secondary card-title">
                                     <h1>Search</h1>
                                 </div>
@@ -104,7 +105,7 @@ class Home extends Component {
                                 <form className="input-group"><input onChange={event => this.setState({min:event.target.value})} placeholder="Minimum" ref={input => this.min = input} className="form-control mb-2" type="text" /></form>
                                 <form className="input-group"><input onChange={event => this.setState({max:event.target.value})} placeholder="Maximum" ref={input => this.max = input} className="form-control" type="text" /></form>
                                 <button onClick={this.onBtnSearch} className="btn btn-outline-secondary btn-block mt-5">Search</button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

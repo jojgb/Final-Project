@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import {Link, Redirect} from 'react-router-dom'
 import {connect} from 'react-redux'
+import  '../css/Header.css'
 import {onLogoutUser} from '../actions'
+
 
 class Header extends Component {
     render() {
@@ -12,7 +14,7 @@ class Header extends Component {
                 <div >
                     <nav className="navbar navbar-expand-sm navbar-light bg-light mb-3">
                             <div className="container">
-                                <Link className="navbar-brand" to="/">Shopedia</Link>
+                                <Link className="navbar-brand" to="/">JoSwimGear</Link>
                                 <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav2">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -46,7 +48,7 @@ class Header extends Component {
                     <Redirect to="/"/>
                 <nav className="navbar sticky-top navbar-expand-md navbar-danger bg-green mb-3">
                     <div className="container">
-                        <Link className="navbar-brand" to="/">Shopedia</Link>
+                        <Link className="navbar-brand" to="/">JoSwimGear</Link>
                         <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav2">
                             <span className="navbar-toggler-icon"></span>
                         </button>

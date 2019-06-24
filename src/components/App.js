@@ -11,6 +11,9 @@ import Header from './Header'
 import Login from './Login'
 import Register from './Register'
 import ManageProduct from './ManageProduct'
+import Footer from './Footer'
+import Sidebar from './Sidebar'
+import Payment from './Payment'
 
 import DetailProduct from './DetailProduct';
 
@@ -45,6 +48,9 @@ class App extends Component {
                     <Route path="/manageproduct" component={ManageProduct}/>
                     <Route path="/detailproduct/:asdfg" component={DetailProduct}/>
                     <Route path="/cart" component={Cart}/>
+                    <Route path="/payment" component={Payment}/>
+                    <Sidebar/>
+                    <Footer/>
                 </div>
             </BrowserRouter>
         )

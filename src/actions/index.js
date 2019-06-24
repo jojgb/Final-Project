@@ -1,4 +1,5 @@
-import axios from 'axios'
+// import axios from 'axios'
+import axios from '../config/axios'
 import cookies from 'universal-cookie'
 
 
@@ -6,11 +7,9 @@ const cookie = new cookies()
 
 export const onLoginClick = (user, pass) => {
     return (dispatch) => {
-        axios.get("http://localhost:1997/users", {
-            params: {
-                username: user,
-                password: pass
-            }
+        axios.get("http://localhost:2071/users", {
+            
+               
         }).then(res => { 
             if (res.data.length > 0) {
                 console.log(res.data[0])
@@ -45,7 +44,7 @@ export const onLoginClick = (user, pass) => {
 
 export const onRegisterUser = (user,email,pass) => {
     return dispatch => {
-        axios.get('http://localhost:1997/users', {
+        axios.get('http://localhost:2071/users', {
             params: {
                 username: user
             }
@@ -90,6 +89,7 @@ export const onLogoutUser = () => {
     window.alert("Terima Kasih telah mampir ke toko kami")
     return {
         type: 'LOGOUT_USER'
+        
     }
 }
 

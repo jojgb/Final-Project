@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
+import axios from '../config/axios'
 import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
-
 
 class ManageProduct extends Component {
 
@@ -16,10 +16,10 @@ class ManageProduct extends Component {
         this.getProduct()
     }
     getProduct = () => {
-        axios.get('http://localhost:1997/products')
-            .then(res => {
-                this.setState({products: res.data, selectedId: 0})
-            })
+        axios.get('http://localhost:2071/products')
+            // .then(res => {
+            //     this.setState({products: res.data, selectedId: 0})
+            // })
     }
 
     renderList = () => {
@@ -65,23 +65,23 @@ class ManageProduct extends Component {
     }
 
     addProduct = () => {
-        const nama = this.name.value
-        const desk = this.desc.value
-        const harga = this.price.value
-        const sumber = this.pict.value
+        const name = this.Pname.value
+        const description = this.Pdescription.value
+        const price = this.Pprice.value
+        // const sumber = this.pict.value
         
-        axios.post('http://localhost:1997/products',{
-            name: nama,
-            desc: desk,
-            price: harga,
-            src:sumber
+        axios.post('/products',{
+            name,
+            description,
+            price
+            
         }).then(res => {
             this.getProduct()
         })
     }
 
     deleteProduct = (id) => {
-        axios.delete('http://localhost:1997/products/' + id)
+        axios.delete('http://localhost:2071/products/' + id)
         .then(res => {
             this.getProduct()
         })
@@ -141,9 +141,9 @@ class ManageProduct extends Component {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col"><input ref={input => this.name = input} className="form-control" type="text" /></th>
-                                <th scope="col"><input ref={input => this.desc = input} className="form-control" type="text" /></th>
-                                <th scope="col"><input ref={input => this.price = input} className="form-control" type="text" /></th>
+                                <th scope="col"><input ref={input => this.Pname = input} className="form-control" type="text" /></th>
+                                <th scope="col"><input ref={input => this.Pdescription = input} className="form-control" type="text" /></th>
+                                <th scope="col"><input ref={input => this.Pprice = input} className="form-control" type="text" /></th>
                                 <th scope="col"><input ref={input => this.pict = input} className="form-control" type="text" /></th>
                                 <th scope="col"><button onClick={this.addProduct} className="btn btn-outline-warning" >Add</button></th>
                             </tr>

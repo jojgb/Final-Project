@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import axios from 'axios';
-
+// import axios from 'axios';
+import axios from '../config/axios'
 
 class DetailProduct extends Component {
     state = {
@@ -9,7 +9,7 @@ class DetailProduct extends Component {
 
     componentDidMount() {
         const idproduct = parseInt(this.props.match.params.asdfg)
-        axios.get('http://localhost:1997/products/' + idproduct)
+        axios.get('http://localhost:2071/products/' + idproduct)
             .then(res => {
                 this.setState({product: res.data})
             })
@@ -26,7 +26,7 @@ class DetailProduct extends Component {
                 <div className="card-body">
                     <img src={product.src} alt={product.name} />
                     <h3 className="card-title">Product: {product.name}</h3>
-                    <p className="card-text">Description: {product.desc}</p>
+                    <p className="card-text">Description: {product.description}</p>
                     <p className="card-text">Price: Rp.{product.price}</p>
                     <a href="/" className="btn btn-block btn-primary">Add to Cart</a>
                 </div>
